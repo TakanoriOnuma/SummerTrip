@@ -3,6 +3,11 @@ extends layout
 block content
   h1 socket.io test
   div#register
+  div 仮送信
+  form
+    input#userId(type='text', placeholder='ユーザID')
+    button 送信
+
 
 block scripts
   script(src='https://code.jquery.com/jquery-3.2.1.min.js')
